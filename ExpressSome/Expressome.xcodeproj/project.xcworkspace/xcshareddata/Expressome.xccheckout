@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B36794AC-EB94-4307-AF17-123AADEA2532</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Expressome</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>181c2dfd-eb6c-4520-9488-59b0dba39128</key>
+		<string>https://192.168.2.35:18080/svn/Expressome</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Implementation/Source/iOS/Expresssome/Expressome.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>181c2dfd-eb6c-4520-9488-59b0dba39128</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>181c2dfd-eb6c-4520-9488-59b0dba39128</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>181c2dfd-eb6c-4520-9488-59b0dba39128</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Expressome</string>
+		</dict>
+	</array>
+</dict>
+</plist>
