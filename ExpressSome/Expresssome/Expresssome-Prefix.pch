@@ -1,0 +1,51 @@
+//
+//  Expresssome-Prefix.pch
+//
+//  Created by Dang Quan on 7/4/15.
+//  Copyright (c) 2015 Quan DT. All rights reserved.
+//
+
+#ifndef Expressome_Expresssome_Prefix_pch
+#define Expressome_Expresssome_Prefix_pch
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "QNetHelper.h"
+    #import "QAPIManager.h"
+    #import "QSystemHelper.h"
+    #import "QUIHelper.h"
+    #import "QNotificationHelper.h"
+    #import "EUserData.h"
+    #import "ENavigationController.h"
+    #import "ETabBarController.h"
+    #import "JSQMessages.h"
+    #import "MBProgressHUD.h"
+    #import "EConstant.h"
+    #import "ECommon.h"
+    #import "EJSONHelper.h"
+    #import "UIImage+Extension.h"
+    #import "RSKImageCropViewController.h"
+    #import "SDImageCache.h"
+    #import <QuartzCore/QuartzCore.h>
+#endif
+
+#define IS_NOT_NULL(obj) ( (obj != (id)[NSNull null]) && (obj != nil) )
+
+#define LOG_DISABLE 3
+#if LOG_DISABLE
+#define NSLog(...)
+#endif
+
+#ifdef NDEBUG
+#define NSLog(...)
+#endif
+
+#define RGB(r, g, b) [UIColor colorWithRed:(r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:1.0f]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:(a)]
+
+#endif
